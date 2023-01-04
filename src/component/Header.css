@@ -1,28 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
-.header{
-    width: 100%;
-    height: 65px;
-    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+* {
+    box-sizing: border-box;
 }
 
-.nav{
-    height: 100%;
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+}
+
+main {
+    padding: 36px;
+}
+
+.header {
     display: flex;
     align-items: center;
-    margin-left: 20px;
-}
-.troll{
-    width: 31px;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    padding: 20px;
 }
 
-.navText{
-    margin-left: 6.5px;
-    font-family: 'Karla', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20.7482px;
-    line-height: 24px;
-    letter-spacing: -0.1em;
-    color: #FFFFFF;
+.header--image {
+    height: 100%;
+    margin-right: 6px;
+}
 
+.header--title {
+    font-size: 1.25rem;
+    margin-right: auto;
+}
+
+.header--project {
+    font-size: 0.75rem;
+    font-weight: 500;
 }
